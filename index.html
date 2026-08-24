@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select" aria-label="Search category">
+                    <option>All</option>  
+                </select>
+                <input 
+                id="searchInput"
+                class="search-input"
+                type="text"
+                placeholder="Search Amazon" 
+                aria-label="Search products">
+                    <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+            </div>
+           
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-sec">Account & Lists</p>
+            </div>
+
+
+            <div class="nav-return border">
+                <p><span>Returns</span></p>
+                <p class="nav-sec">& Orders</p>
+            </div>
+            
+            <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart</span> 
+            <span id="cartCount">0</span>
+            </div>
+        
+        </div>
+            <div class="panel ">
+                <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                <span>All</span> 
+                </div>
+
+                <div class="panel-option ">
+                    <p>Fresh</p> 
+                    <p>MX Player</p> 
+                    <p>Sell</p> 
+                    <p>Bestsellers</p> 
+                    <p>Today's Deals</p>
+                    <p>Mobiles</p> 
+                    <p>New Release</p> 
+                    <p>Prime</p> 
+                    <p>Amazon Pay</p> 
+                    <p>Electronics</p>  
+                    <p>Customer Service</p>
+                    <p>Home & Kitchen</p>
+                    <p>Fashion</p>
+                </div>
+            </div>
+    </header>
+
+    <div class="hero-section">
+
+        <button class="slider-left btn " aria-label="Previous image">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>  
+        
+        <button class="slider-right btn" aria-label="Next image">
+        <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <div class="hero-message">
+        <p>You are on amazon.com. You can also shop on Amazon India for million of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="shop-section">
+
+        <div class="box category-card" data-category="clothes">
+            <div class="box-content">
+                <h2>Clothes</h2> 
+                <div class="box-img" style="background-image: url('images/box1_image.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a> 
+            </div>
+        </div>
+        
+        <div class="box category-card" data-category="health">
+            <div class="box-content">
+                <h2>Health & Personal Care</h2> 
+                <div class="box-img" style="background-image: url('images/box2_image.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a> 
+            </div>
+        </div>
+        <div class="box category-card" data-category="furniture">
+            <div class="box-content">
+                <h2>Furniture</h2> 
+                <div class="box-img" style="background-image: url('images/box3_image.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a> 
+            </div>
+        </div>
+       
+        <div class="box category-card" data-category="beauty">
+            <div class="box-content">
+                <h2>Beauty picks</h2> 
+                <div class="box-img" style="background-image: url('images/box5_image.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a> 
+            </div>
+        </div>
+        <div class="box category-card" data-category="pet-care">
+            <div class="box-content">
+                <h2>Pet Care</h2> 
+                <div class="box-img" style="background-image: url('images/box6_image.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a> 
+            </div>
+        </div>
+        <div class="box category-card" data-category="toys">
+            <div class="box-content">
+                <h2>New Arrival in Toys</h2> 
+                <div class="box-img" style="background-image: url('images/box7_image.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a>
+            </div>
+        </div>
+        <div class="box category-card" data-category="jewellery">
+            <div class="box-content">
+                <h2> Trending </h2> 
+                <div class="box-img" style="background-image: url('images/jew4_img.jpg');"></div>
+                <a href="#productsSection" class="see-more">See more</a> 
+            </div>
+        </div>
+
+        <div class="box category-card" data-category="automotive">
+            <div class="box-content">
+
+                <h2>Automotive essentials </h2>
+            
+            <div class="product-grid">
+
+                <div class="grid-item">
+                <img src="images/automotive1_image.jpg" alt="cleaning accessories" >
+                <p>Cleaning accessories </p>
+                </div>  
+        
+                <div class="grid-item">
+                <img src="images/automotive2_image.jpg" alt="Helmet" >
+                <p>Helmet </p>
+                </div>    
+
+                <div class="grid-item">
+                <img src="images/automotive3_image.jpg" alt="Tyre & rim care" >
+                <p>Tyre & rim care </p>
+                </div>    
+
+                <div class="grid-item">
+                <img src="images/automotive4_image.jpg" alt="Vacuum cleaner" >
+                <p>Vacuum cleaner </p>
+                </div> 
+
+            </div>
+
+            <a href="#" class="see-more" data-category="automotive">See more</a>
+
+            </div>
+        </div>
+
+        <div class="box category-card" data-category="appliances">
+            <div class="box-content">
+
+                <h2> Appliances </h2>
+            
+            <div class="product-grid">
+
+                <div class="grid-item">
+                <img src="images/appliances1_image.jpg" alt="Air conditioner" >
+                <p>Air Conditioner </p>
+                </div>  
+        
+                <div class="grid-item">
+                <img src="images/appliances2_image.jpg" alt="refrigerator" >
+                <p>Refrigerator </p>
+                </div>    
+
+                <div class="grid-item">
+                <img src="images/applinces3_image.jpg" alt="MicroOven" >
+                <p>MicroOven </p>
+                </div>    
+
+                <div class="grid-item">
+                <img src="images/appliances4_image.jpg" alt="Washing Machine" >
+                <p>Washing machine </p>
+                </div> 
+
+            </div>
+
+            <a href="#" class="see-more">See more</a>
+
+            </div>
+        </div>
+
+        <div class="box category-card" data-category="revamp">
+            <div class="box-content">
+
+                <h2>Revamp </h2>
+            
+            <div class="product-grid">
+
+                <div class="grid-item">
+                <img src="images/revamp1_image.jpg" alt="Rugs" >
+                <p>Rugs </p>
+                </div>  
+        
+                <div class="grid-item">
+                <img src="images/revamp2_image.jpg" alt="Home Decor" >
+                <p>Home Decor </p>
+                </div>    
+
+                <div class="grid-item">
+                <img src="images/revamp3_image.jpg" alt=" Storage" >
+                <p>Storage</p>
+                </div>    
+
+                <div class="grid-item">
+                <img src="images/revamp4_image.jpg" alt="lighting" >
+                <p>Lighting</p>
+                </div> 
+
+            </div>
+
+            <a href="#" class="see-more">See more</a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <section class="products-section" id="productsSection">
+
+    <div class="products-header">
+        <button id="backToCategories">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back to Categories
+        </button>
+
+        <h2 id="productCategoryTitle">Products</h2>
+    </div>
+
+    <div class="products-container" id="productsContainer">
+        <!-- Products will be added here by JavaScript -->
+    </div>
+
+    </section>
+
+    <section class="cart-section" id="cartSection">
+
+    <div class="cart-header">
+        <h2>Shopping Cart</h2>
+
+        <button id="backToProducts">
+            <i class="fa-solid fa-arrow-left"></i>
+            Continue Shopping
+        </button>
+    </div>
+
+    <div class="cart-container" id="cartContainer">
+        <!-- Cart products will appear here -->
+    </div>
+
+    <div class="order-summary" id="orderSummary">
+        <h2>Order Summary</h2>
+
+        <p>
+        Items: <span id="cartItemsCount">0</span>
+        </p>
+
+        <p>
+        Total: <span id="cartTotal">₹0</span>
+        </p>
+
+        <button id="checkoutButton">
+            Proceed to Buy
+        </button>
+    </div>
+
+    </section>
+
+
+    <footer>
+        <div class="foot-panel1">
+            Back to Top
+        </div> 
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to know Us</p>
+                <a> Careers</a>
+                <a>Blog</a>
+                <a> About Amazon</a>
+                <a>Investor Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a> Facebook</a>
+                <a>Twitter</a>
+                <a> Instagram</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell on Amazon</a>
+                <a>Sell under Amazon Accelerator</a>
+                <a>Protect and Build Your Brand</a>
+                <a>Amazon Global Selling</a>
+                <a>Supply to Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Fulfillment by Amazon</a>
+                <a>Advertise Your Products</a>
+                <a>Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Your Account</a>
+                <a>Returns Centre</a>
+                <a>Recalls and Product Safety Alerts</a>
+                <a>100% Purchase Protection</a>
+                <a>Amazon App Download</a>
+                <a>Help</a>
+            </ul>
+        </div>
+        
+        <div class="foot-panel3">
+            <div class=" foot-logo"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use & Sale</a>
+                <a>Privacy Notice</a>
+                <a>Interest-Based Ads</a>
+            </div>
+            <div class="copyright">
+                © 1996-2026, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
