@@ -2,6 +2,11 @@
 
 A frontend Amazon-inspired e-commerce website created using HTML, CSS, and JavaScript. This project focuses on recreating the visual layout of an online shopping website and practicing frontend development.
 
+## 🌐 Live Demo
+
+[**View Live Website**](https://harshita582.github.io/Amazon-Clone-Project/)
+
+
 ## 🚀 Features
 
 - Amazon-inspired homepage UI
